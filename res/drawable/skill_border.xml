@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle" >
+
+    <corners android:radius="20dip" />
+    
+    <solid android:color="@color/status_dialog_divider"/>
+	
+    <padding
+        android:bottom="1dip"
+        android:left="1dip"
+        android:right="1dip"
+        android:top="1dip" />
+
+</shape>

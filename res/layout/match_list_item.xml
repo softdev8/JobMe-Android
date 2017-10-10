@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.search.jobme"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp" >
+
+        <com.mikhaellopez.circularimageview.CircularImageView
+	       android:id="@+id/user_picture"
+	       android:layout_width="60dp"
+	       android:layout_height="60dp"
+	       android:layout_centerVertical="true"
+	       android:layout_marginLeft="15dp"
+           app:border="false"
+	       app:border_color="@color/white_color"
+	       app:border_width="1.0dip"
+	       app:shadow="true" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/layout"
+            android:layout_toRightOf="@id/user_picture"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/txt_username"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/txt_headline"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/txt_company_name"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+            
+	        <RelativeLayout
+	            android:id="@+id/message_layout"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentRight="true"
+	            android:background="@drawable/red_icon" >
+	
+	            <TextView
+	                android:id="@+id/txt_cnt"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_alignParentLeft="false"
+	                android:layout_centerHorizontal="true"
+	                android:layout_centerVertical="true"
+	                android:gravity="center"
+	                android:textColor="@color/white_color" />
+
+	        </RelativeLayout>
+		</LinearLayout>
+
+    </RelativeLayout>
+	
+    <View
+        android:id="@+id/line"
+        android:layout_width="fill_parent"
+        android:layout_height="0.1dp"
+        android:layout_below="@id/top_layout"
+        android:background="@android:color/darker_gray" />
+</LinearLayout>

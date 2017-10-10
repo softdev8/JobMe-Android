@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">JobMe</string>
+    <string name="app_id">1016935278366241</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+	<string name="circle_icon">&#xf111;</string>
+	
+	<string name="toast_facebook_auth_success">Facebook authentication is successful</string>
+    <string name="toast_facebook_auth_fail">Error was occurred during Facebook authentication</string>
+    <string name="facebook_post_published">Posted to Facebook successfully</string>
+    <string name="facebook_post_publishing_failed">Post publishing was failed</string>
+    <string name="facebook_logged_out">You are logged out</string>
+    
+	<string-array name="main_cat">
+        <item >All</item>
+        <item >Accounting</item>
+        <item >Administration &amp; Office Support</item>
+		<item >Advertising &amp; Media</item>
+		<item >Air Conditioning &amp; Refrigeration</item>
+		<item >Airlines &amp; Aviation</item>
+		<item >Animals &amp; Conservation</item>
+		<item >Architecture</item>
+		<item >Automotive</item>
+		<item >Banking</item>
+		<item >Building, Carpentry &amp; Labour</item>
+		<item >Call Centre &amp; Customer Services</item>
+		<item >CEO &amp; General Management</item>
+		<item >Cleaning Services</item>
+		<item >Community Services &amp; Development</item>
+		<item >Construction</item>
+		<item >Consulting &amp; Strategy</item>
+		<item >Defense</item>
+		<item >Dental</item>
+		<item >Design</item>
+		<item >Education &amp; Training</item>
+		<item >Electricians</item>
+		<item >Engineering</item>
+		<item >Entertainment</item>
+		<item >Farming</item>
+		<item >Financial Services</item>
+		<item >Government</item>
+		<item >GP\'\s &amp; Doctors</item>
+		<item >Hair &amp; Beauty Services</item>
+		<item >Healthcare &amp; Medical - Other</item>
+		<item >Hospitality - Back of House</item>
+		<item >Hospitality - Front of House</item>
+		<item >Hospitality - Management</item>
+		<item >Hospitality - Other</item>
+		<item >HR &amp; Recruitment</item>
+		<item >Information Technology</item>
+		<item >Insurance &amp; Superannuation</item>
+		<item >Legal</item>
+		<item >Locksmiths</item>
+		<item >Manufacturing</item>
+		<item >Marketing &amp; Communications</item>
+		<item >Medical Administration</item>
+		<item >Mining, Resources &amp; Energy</item>
+		<item >Modeling &amp; Promotion</item>
+		<item >Nannies &amp; Babysitters</item>
+		<item >Natural &amp; Alternative Healthcare</item>
+		<item >Nursing</item>
+		<item >Painters &amp; Sign Writers</item>
+		<item >Pharmacy</item>
+		<item >Plumbers</item>
+		<item >Real Estate &amp; Property</item>
+		<item >Retail &amp; Consumer Products</item>
+		<item >Sales</item>
+		<item >Science &amp; Technology</item>
+		<item >Security Services</item>
+		<item >Services &amp; Trades - Other</item>
+		<item >Sports &amp; Recreation</item>
+		<item >Tailors &amp; Dressmakers</item>
+		<item >Technicians</item>
+		<item >Tourism</item>
+		<item >Transport &amp; Logistics</item>
+		<item >Volunteer Work</item>
+		<item >Warehousing</item>
+		<item >Welders &amp; Boilermakers</item>
+    </string-array>
+    
+    <string-array name="sub_cat">
+        <item >Accounting</item>
+		<item >Advertising &amp; Marketing</item>
+		<item >Apparel &amp; Fashion</item>
+		<item >Architecture, Design &amp; Planning</item>
+		<item >Arts</item>
+		<item >Automotive</item>
+		<item >Aviation / Airlines</item>
+		<item >Banking</item>
+		<item >Child Care</item>
+		<item >Civil Engineering</item>
+		<item >Computer Hardware</item>
+		<item >Computer &amp; Network Security</item>
+		<item >Construction</item>
+		<item >Consumer Electronics</item>
+		<item >Consumer Goods</item>
+		<item >Defense &amp; Space</item>
+		<item >E-Commerce</item>
+		<item >Education</item>
+		<item >Electronics Manufacturing</item>
+		<item >Entertainment</item>
+		<item >Environmental Services</item>
+		<item >Events Services</item>
+		<item >Film &amp; Television</item>
+		<item >Financial Services</item>
+		<item >Food &amp; Beverage Production</item>
+		<item >Government</item>
+		<item >Health Care</item>
+		<item >Health, Wellness &amp; Fitness</item>
+		<item >Hospitality</item>
+		<item >Information Technology &amp; Services</item>
+		<item >Insurance</item>
+		<item >Internet, Tech, &amp; Software</item>
+		<item >Investment Banking</item>
+		<item >Investment Management</item>
+		<item >Law Enforcement</item>
+		<item >Legal</item>
+		<item >Logistics &amp; Package Delivery</item>
+		<item >Management Consulting</item>
+		<item >Manufacturing</item>
+		<item >Mechanical &amp; Industrial Engineering</item>
+		<item >Military</item>
+		<item >Music</item>
+		<item >Non-Profits</item>
+		<item >Oil &amp; Energy</item>
+		<item >Online, Broadcast, &amp; Print Media</item>
+		<item >Performing Arts</item>
+		<item >Pharmaceuticals</item>
+		<item >Photography</item>
+		<item >Politics</item>
+		<item >Public Relations &amp; Communications</item>
+		<item >Public Safety</item>
+		<item >Publishing</item>
+		<item >ZReal Estate</item>
+		<item >Restaurants, Bars &amp; Cafes</item>
+		<item >Retail</item>
+		<item >Science / Biotechnology / Chemicals</item>
+		<item >Social Services</item>
+		<item >Sports</item>
+		<item >Staffing &amp; Recruiting</item>
+		<item >Technology Consulting</item>
+		<item >Telecommunications</item>
+		<item >Textile</item>
+		<item >Transportation</item>
+		<item >Travel</item>
+		<item >Utilities</item>
+		<item >Venture Capital &amp; Private Equity</item>
+		<item >Veterinary</item>
+		<item >Video Games</item>
+		<item >Visual &amp; Graphic Design</item>
+		<item >Warehousing</item>
+		<item >Other</item>
+    </string-array>
+    
+    <string name="accepted">Accepted</string>
+    
+    <string name="connect">Connect...</string>
+    <string name="checking">Checking...</string>
+    <string name="connected">Connected</string>
+    <string name="disconnected">Disconnected</string>
+    
+    
+    <string name="current_version">0.9.1</string>
+    <string name="rejected">Rejected</string>
+    <string name="noAnswer">No answer</string>
+    <string name="hungUp">Hung up</string>
+    <string name="closed">Closed</string>
+    <string name="time_out">Time Out</string>
+    <string name="failed">Failed</string>
+    <string name="WIFI_DISABLED">Call was stoped because connection was lost</string>
+    <string name="NETWORK_ABSENT">Connection lost</string>
+    
+    <string name="welcome_string">Thank you for signing up to JobMe!\n\n
+
+Start your search now by selecting your Job Function and Location from the drop-down at the top of the page.</string>
+    
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="blue_green">#008080</color>
+    <color name="grey">#606060</color>
+    <color name="gold">#FFD700</color>
+    <color name="spring_bud">#A7FC00</color>
+    <color name="water_bondi_beach">#0095B6</color>
+    <color name="coral">#FF4040</color>
+    <color name="lime">#00FF00</color>
+    <color name="may_green">#4C9141</color>
+    <color name="mauveine">#EF0097</color>
+    <color name="blue">#1FCECB</color>
+    <color name="orange">#FFA500</color>
+    <color name="gentianaceae_blue">#2A6478</color>
+    <color name="blue_krayola">#1F75FE</color>
+    <color name="red">#FF0000</color>
+    <color name="white_blue">#00BFFF</color>
+    <color name="pink">#FF7A7A</color>
+    <color name="green">#45D100</color>
+    <color name="white_green">#A9FF80</color>
+    <color name="black_transparent_30">#30000000</color>
+    <color name="black_transparent_50">#50000000</color>
+    <color name="white_transparent_80">#80FFFFFF</color>
+    
+</resources>

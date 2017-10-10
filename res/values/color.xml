@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white_color">#ffffff</color>
+    <color name="black_color">#000000</color>
+    
+    <color name="title_bar_color">#7a499b</color>
+    <color name="title_bar_color1">#8dc53e</color>
+    <color name="online_color">#08a67f</color>
+    <color name="button_bg_color">#7a499b</color>
+    
+    <color name="text_color">#555555</color>
+    
+    <color name="text_bg_color">#f8f9fa</color>
+    <color name="text_bg_border_color">#999999</color>
+    <color name="text_color1">#aaaaaa</color>
+    
+    <color name="edit_bg_color">#f8f9fa</color>
+    
+    <color name="gray">#8C8C8C</color>
+    <color name="page_bg">#e3e6ed</color>
+    <color name="page_bg1">#f6f6f8</color>
+    <color name="red">#ff0000</color>
+    
+    <color name="status_dialog_divider">#E7E7E7</color>
+    <color name="status_dialog_background">#F5F5F4</color>
+    
+    <color name="main_page_status_dialog_gray">#8a8a8a</color>
+    <color name="main_page_status_dialog_blue">#007aff</color>
+    
+    <color name="main_color">#41c289</color>
+    <color name="description_color">#323232</color>
+    
+    <!-- App color -->
+    <color name="primary">#002943</color>
+    <color name="primaryDark">#001F32</color>
+    <color name="accent">#ffffff</color>
+
+    <color name="semi_transparent_black">#32000000</color>
+    <color name="text_color_orange">#f85050</color>
+    <color name="menu_text_normal">#338dbd</color>
+    <color name="orange_light">#f96868</color>
+
+    <color name="primaryLight">#338dbd</color>
+</resources>
